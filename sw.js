@@ -21,6 +21,8 @@ self.addEventListener('fetch', event => {
 async function precache() {
    const cache = await caches.open(VERSION);
    return cache.addAll([
+      /*
+
       '/',
       '/index.html',
       '/assets/index.js',
@@ -29,6 +31,8 @@ async function precache() {
       '/assets/plugins/AutoPause.js',
       '/assets/index.css',
       '/assets/ejercicio.mp4',
+
+      */
    ]);
 }
 
